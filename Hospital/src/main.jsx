@@ -9,7 +9,7 @@ import {
     RouterProvider,
 } from "react-router-dom"
 import SignUp from './pages/medecin/Signup';
-import SignIn from './pages/Signin'
+import SignIn from './pages/Signin';
 
 const router = createBrowserRouter([
     {
