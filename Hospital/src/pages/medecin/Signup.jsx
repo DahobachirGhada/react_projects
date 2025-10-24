@@ -5,10 +5,24 @@ import Navbar from "../../components/Navbar"
 import "./Signup.css"
 import googleLogo from '../../assets/google.png';
 import appleLogo from '../../assets/apple.png';
+import heart from '../../assets/heart.png';
 
 function SignUp() {
     return(
-      <>
+      <div className="page-container">
+        {/*LEFT SIDE */}
+        <div className="left-side">
+
+          <div className="title-wrapper">
+          <p className="left-title">LIFE | </p>
+          <p className="left-title care">CARE</p>
+          </div>
+          <img src={heart} className="heart-image"/>
+        </div>
+
+
+        {/*RIGHT SIDE*/}
+       <div className="right-side">
         <div className="signup_info">
           <h1>Get Started Now</h1>
         <form >
@@ -36,8 +50,8 @@ function SignUp() {
 
          <p className="or already">Already have an account? <Link to="/SignIn" className="link">Sign in</Link></p>
         </div>
-
-      </>
+       </div>
+      </div>
     );
 }
 

@@ -1,9 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden; /* optional if you don't want scrolling at all */
+}
+
+
+.page-container{
+  display: flex;
+  height:100vh;
+  width: 100%;
+}
+
+.left-side{
+  flex: 0 0 30%;
+  background-color: #EDF6FF;
+  display:flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.title-wrapper {
+  line-height: 1; 
+  flex-direction: column;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+
+
+
+.left-title{
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #231f93;
+  margin: 0;
+  padding: 0;
+
+}
+
+.care{
+  margin-left: 100px;
+  margin-top: -10px;
+}
+
+.heart-image{
+  width: 300px;
+  height: 540;
+  position:absolute;
+  top: 90px;
+  left: 130px;
+  transform: rotate(-20deg);
+  opacity: 1;
+
+}
+
+
+.right-side{
+  flex: 0 0 70%;                /* 60% width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .signup_info {
   display: flex;
   flex-direction: column; 
   margin: 0 auto;
   width: 404px;
+  margin-top: 50px;
 }
 
 .signup_button{
@@ -66,16 +138,17 @@ h1{
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-style: Medium;
-  font-size: 9px;
+  font-size: 11px;
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .already{
-  font-size: 14px
+  font-size: 14px;
+  margin-top: 20px;
 }
 
 .link{
