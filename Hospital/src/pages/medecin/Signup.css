@@ -72,22 +72,34 @@ h1{
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
+}
 
+.already{
+  font-size: 14px
+}
+
+.link{
+  color: blue;
 }
 
 .other-options{
   display: flex;          /* puts children in a row */
-  justify-content: space-between; /* adds space between them */
+  justify-content: space-between;
   width: 404px;  
 }
 
 .google{
+  display: flex;
   height: 32px;
   width:190px;
   border-radius: 9px;
   background-color: white;
   border: 1px solid #D9D9D9;
   padding-left: 0px;
+  align-items: center; 
+  justify-content: center; 
+  cursor: pointer;
+  gap:6px;
 }
 
 .google-icon{
@@ -95,10 +107,19 @@ h1{
   height: 20px;
 }
 
+
 .apple{
+  display: flex;
   height: 32px;
   width:190px;
   border-radius: 9px;
   background-color: white;
   border: 1px solid #D9D9D9;
+  align-items: center; 
+  justify-content: center; 
+  cursor: pointer;
+}
+
+.apple-logo{
+  height: 28px;
 }

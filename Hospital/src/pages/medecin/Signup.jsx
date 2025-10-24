@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar"
 import "./Signup.css"
 import googleLogo from '../../assets/google.png';
+import appleLogo from '../../assets/apple.png';
 
 function SignUp() {
     return(
@@ -24,12 +25,16 @@ function SignUp() {
          <div className="other-options">
           <button className="google">
             <img src={googleLogo} className="google-icon"/>
-            Sign in in with Google</button>
-         <button className="apple">Sign in with Apple</button>
+            <span>Sign in in with Google</span>
+          </button>
+         <button className="apple">
+          <img src={appleLogo} className="apple-logo"/>
+          <span>Sign in with Apple</span>
+          </button>
          </div>
          
 
-         <p>Already have an account? <Link to="/SignIn">Sign in</Link></p>
+         <p className="or already">Already have an account? <Link to="/SignIn" className="link">Sign in</Link></p>
         </div>
 
       </>
