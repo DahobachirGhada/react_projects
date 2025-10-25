@@ -30,7 +30,11 @@ function SignIn() {
               <form >
                <p className="input_names">Email Address</p>
                <input type="text" placeholder="Enter your email address"></input>
-               <p className="input_names">Password</p>
+
+               <div className="password-box">
+                <p className="input_names">Password</p>
+                <p ><Link to="/ForgotPassword" className="forgot-password">forgot password</Link></p>
+               </div>
                <input type="text" placeholder="Enter your password"></input>
                
               </form>

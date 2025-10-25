@@ -9,3 +9,21 @@
     margin-bottom: 50px;
     margin-top: -50px;
 }
+
+.forgot-password{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 10px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #0C2A92;
+    text-decoration: none;
+
+}
+
+.password-box {
+    display: flex;          /* puts children in a row */
+    justify-content: space-between;
+    width: 390px; 
+}
