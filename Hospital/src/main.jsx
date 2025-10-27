@@ -13,6 +13,7 @@ import SignUp from './pages/medecin/Signup';
 import SignIn from './pages/Signin';
 import ForgotPassword from './pages/medecin/forgot_password';
 import PasswordReset from './pages/medecin/password_reset';
+import SetNewPassword from './pages/medecin/set_new_password';
 
 const router = createBrowserRouter([
     {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
     {
       path: "/PasswordReset",
       element: <PasswordReset/>
+    },
+    {
+      path: "/SetNewPassword",
+      element: <SetNewPassword/>
     }
 ]);
 

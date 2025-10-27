@@ -1,4 +1,6 @@
+import React from "react";
 import { Link } from "react-router-dom";
+import PinInput from "./pin_input";
 import "./Signup.css";
 import "./forgot_password.css";
 import "./password_reset.css";
@@ -8,7 +10,14 @@ import heart from '../../assets/heart.png';
 //import finger from '../../assets/finger.png'
 
 
+
+
+
 function PasswordReset() {
+
+  const handlePinComplete = (pin) => {
+    console.log("entered PIN:", pin);
+  }
         return(
       <div className="page-container">
         {/*LEFT SIDE */}
@@ -26,24 +35,9 @@ function PasswordReset() {
        <div className="right-side">
         <div className="forgot_password_info">
           <h1>Password Reset</h1>
-          <p className="first-p">Enter your email address and we'll send you a reset pin</p>
-        <form >
-         <p className="input_names">Email Address</p>
-         <input type="text" placeholder="Enter your email address"></input>
-         
-        </form>
-         <button className="reset_button">continue</button>
-         <p className="or">or</p>
-         <div className="other-options">
-          <button className="google">
-            <img src={googleLogo} className="google-icon"/>
-            <span>Sign in in with Google</span>
-          </button>
-         <button className="apple">
-          <img src={appleLogo} className="apple-logo"/>
-          <span>Sign in with Apple</span>
-          </button>
-         </div>
+          <p className="first-p">We sent a reset pin</p>
+          {/* add a variable with the email  */}
+          <PinInput onComplete={handlePinComplete}/>
          
 
          <p className="or already">Already have an account? <Link to="/SignIn" className="link">Sign in</Link></p>
