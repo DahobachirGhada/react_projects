@@ -125,6 +125,7 @@ letter-spacing: 0%;
 }
 
 h1{
+  /* position: absolute; */
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -133,6 +134,14 @@ h1{
   letter-spacing: 0%;
   margin-bottom: 60px;
 }
+
+.form_info{
+  margin-top: 100px;
+}
+
+/* .name{
+  margin-top: 40px; 
+} */
 
 .or{
   font-family: 'Poppins', sans-serif;

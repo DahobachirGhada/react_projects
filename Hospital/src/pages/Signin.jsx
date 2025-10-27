@@ -3,7 +3,6 @@ import {useState} from 'react'
 import Navbar from "../components/Navbar"
 import { Link } from "react-router-dom";
 import "./Signin.css";
-import "../pages/medecin/Signup.css";
 import googleLogo from '../assets/google.png';
 import appleLogo from '../assets/apple.png';
 import heart from '../assets/heart.png';

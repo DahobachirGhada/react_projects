@@ -22,7 +22,7 @@ function SignUp() {
        <div className="right-side">
         <div className="signup_info">
           <h1>Get Started Now</h1>
-        <form >
+        <form className="form_info">
          <p className="input_names">Name</p>
          <input type="text" placeholder="Enter your name"></input>
          <p className="input_names">Email Address</p>
