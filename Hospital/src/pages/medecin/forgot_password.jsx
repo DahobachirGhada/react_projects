@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import "./Signup.css";
 import "./forgot_password.css";
 import googleLogo from '../../assets/google.png';
 import appleLogo from '../../assets/apple.png';
