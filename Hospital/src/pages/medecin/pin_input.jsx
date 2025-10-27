@@ -1,9 +1,11 @@
-import React,{ useRef, useState,Link } from "react";
+import React,{ useRef, useState} from "react";
+import {useNavigate } from "react-router-dom";
 import "./pin_input.css";
 
 export default function PinInput({length = 4, onComplete}){
   const [values, setValues] = useState(Array(length).fill(""));
   const inputsRef = useRef([]);
+  const navigate = useNavigate();
 
   const handleChange = (e, index) => {
     const value = e.target.value;
@@ -20,6 +22,11 @@ export default function PinInput({length = 4, onComplete}){
 
     if (newValues.every((v) => v !== "")) {
       onComplete(newValues.join(""));
+      const pin = newValues.join("");
+      console.log("pin entered :",pin);
+      setTimeout(() =>{
+        navigate("/SetNewPassword");
+      },600);
     }
   };
 

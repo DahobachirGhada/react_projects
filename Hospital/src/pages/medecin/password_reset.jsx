@@ -4,8 +4,6 @@ import PinInput from "./pin_input";
 import "./Signup.css";
 import "./forgot_password.css";
 import "./password_reset.css";
-import googleLogo from '../../assets/google.png';
-import appleLogo from '../../assets/apple.png';
 import heart from '../../assets/heart.png';
 //import finger from '../../assets/finger.png'
 
