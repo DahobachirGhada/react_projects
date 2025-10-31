@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PasswordInput from "../password_input";
 import "./Signup.css"
 import googleLogo from '../../assets/google.png';
 import appleLogo from '../../assets/apple.png';
@@ -29,6 +30,7 @@ function SignUp() {
          <input type="text" placeholder="Enter your email address"></input>
          <p className="input_names">Password</p>
          <input type="text" placeholder="Enter your password"></input>
+         {/* <PasswordInput placeholder="enter your pp"/> */}
          
         </form>
          <button className="signup_button">Signup</button>
