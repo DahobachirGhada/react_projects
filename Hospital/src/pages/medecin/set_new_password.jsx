@@ -29,7 +29,7 @@ function SetNewPassword() {
                   <p className="input_names">Confirm password</p>
                   <input type="text" placeholder="Enter your password"></input>                  
                  </form>
-                  <button className="signup_button">reset password</button>
+                  <button className="signup_button"><Link to ="/SignIn" style={{textDecoration:"none", color:"white"}}>reset password</Link></button>
                  </div>
                 </div>
                </div>

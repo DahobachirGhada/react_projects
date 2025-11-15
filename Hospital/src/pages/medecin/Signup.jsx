@@ -33,7 +33,7 @@ function SignUp() {
          {/* <PasswordInput placeholder="enter your pp"/> */}
          
         </form>
-         <button className="signup_button">Signup</button>
+         <button className="signup_button"><Link to="/DashBoard" style={{textDecoration:"none", color:"white"}}>Signup</Link></button>
          <p className="or">or</p>
          <div className="other-options">
           <button className="google">

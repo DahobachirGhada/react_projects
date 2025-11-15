@@ -37,7 +37,7 @@ function SignIn() {
                <input type="text" placeholder="Enter your password"></input>
                
               </form>
-               <button className="signup_button">Login</button>
+               <button className="signup_button"><Link to="/DashBoard" style={{textDecoration:"none", color:"white"}}>Login</Link></button>
                <p className="or">or</p>
                <div className="other-options">
                 <button className="google">

@@ -14,6 +14,8 @@ import SignIn from './pages/Signin';
 import ForgotPassword from './pages/medecin/forgot_password';
 import PasswordReset from './pages/medecin/password_reset';
 import SetNewPassword from './pages/medecin/set_new_password';
+import DashBoard from './pages/medecin/Dashboard';
+import DynamicChart from './pages/medecin/PatientOverviewCHART';
 
 const router = createBrowserRouter([
     {
@@ -39,6 +41,10 @@ const router = createBrowserRouter([
     {
       path: "/SetNewPassword",
       element: <SetNewPassword/>
+    },
+    {
+      path: "/DashBoard",
+      element: <DashBoard/>
     }
 ]);
 
