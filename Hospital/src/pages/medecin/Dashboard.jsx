@@ -12,29 +12,29 @@ import trash from "../../assets/Dashboard-icons/trash-2-outline.png";
 
 function DashBoard(){
     return(
-        <div className="page-container">
+        <div className="page-contain">
             <div className="title-wrapper">
                <p className="left-title">LIFE | </p>
                <p className="left-title care">CARE</p>
             </div>
             <div className="side-panel">
-               <img src={dash}/>
-               <p>Dashboard</p>
-               <img src={doctor}/>
-               <p>Doctor</p>
-               <img src={patient}/>
-               <p>Patients</p>
-               <img src={appoint}/>
-               <p>Appointment</p>
-               <img src={payment}/>
-               <p>Payment</p>
-               <img src={setting}/>
-               <p>Setting</p>
+               <img src={dash} className="panel-logos"/>
+               <p className="panel-text">Dashboard</p>
+               <img src={doctor} className="panel-logos"/>
+               <p className="panel-text">Doctor</p>
+               <img src={patient} className="panel-logos"/>
+               <p className="panel-text">Patients</p>
+               <img src={appoint} className="panel-logos"/>
+               <p className="panel-text">Appointment</p>
+               <img src={payment} className="panel-logos"/>
+               <p className="panel-text">Payment</p>
+               <img src={setting} className="panel-logos"/>
+               <p className="panel-text">Setting</p>
 
-               <img src={logout}/>
-               <p>Log out</p>
-               <img src={trash}/>
-               <p>Delete Profile</p> 
+               <img src={logout} className="panel-logos"/>
+               <p className="panel-text logout">Log out</p>
+               <img src={trash} className="panel-logos"/>
+               <p className="panel-text">Delete Profile</p> 
             </div>
 
             <div className="search-bar">

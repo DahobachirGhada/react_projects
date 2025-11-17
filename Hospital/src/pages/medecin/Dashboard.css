@@ -7,13 +7,13 @@
 html, body {
   height: 100%;
   overflow: hidden; 
-  background-color: #EDF6FF;
 }
 
-.page-container{
+.page-contain{
   display: flex;
   height:100vh;
   width: 100%;
+  background-color: #EDF6FF;
 }
 
 .title-wrapper {
@@ -27,7 +27,7 @@ html, body {
   font-family: 'Lora', serif;
   font-weight: 700;
   font-style: Bold;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 100%;
   letter-spacing: 0%;
   color: #231f93;
@@ -43,10 +43,34 @@ html, body {
 
 
 .side-panel{
+    position: fixed;
     border: 1px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    width: 130px;
-    height: 565px;
+    width: 100px;
+    height: 500px;
     border-radius: 10px;
     background-color: white;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
 }
+ .panel-logos{
+    height: 24px;
+    width: 24px;
+ }
+
+ .panel-text{
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+ }
+ .logout{
+
+ }
