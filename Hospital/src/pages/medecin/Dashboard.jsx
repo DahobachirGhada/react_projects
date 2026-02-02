@@ -18,23 +18,39 @@ function DashBoard(){
                <p className="left-title care">CARE</p>
             </div>
             <div className="side-panel">
-               <img src={dash} className="panel-logos"/>
-               <p className="panel-text">Dashboard</p>
-               <img src={doctor} className="panel-logos"/>
-               <p className="panel-text">Doctor</p>
-               <img src={patient} className="panel-logos"/>
-               <p className="panel-text">Patients</p>
-               <img src={appoint} className="panel-logos"/>
-               <p className="panel-text">Appointment</p>
-               <img src={payment} className="panel-logos"/>
-               <p className="panel-text">Payment</p>
-               <img src={setting} className="panel-logos"/>
-               <p className="panel-text">Setting</p>
 
-               <img src={logout} className="panel-logos"/>
-               <p className="panel-text logout">Log out</p>
-               <img src={trash} className="panel-logos"/>
-               <p className="panel-text">Delete Profile</p> 
+                <div className="panel-item">
+                 <img src={dash} className="panel-logos"/>
+                 <p className="panel-text panel-text-blue">Dashboard</p>
+                </div>
+                <div className="panel-item">
+                 <img src={doctor} className="panel-logos"/>
+                 <p className="panel-text">Doctor</p>
+                </div>
+                <div className="panel-item">
+                 <img src={patient} className="panel-logos"/>
+                 <p className="panel-text">Patients</p>   
+                </div>
+                <div className="panel-item">
+                 <img src={appoint} className="panel-logos"/>
+                 <p className="panel-text">Appointment</p>   
+                </div>
+                <div className="panel-item">
+                 <img src={payment} className="panel-logos"/>
+                 <p className="panel-text">Payment</p>   
+                </div>
+                <div className="panel-item">
+                 <img src={setting} className="panel-logos"/>
+                 <p className="panel-text">Setting</p>
+                </div>
+                <div className="panel-item logout">
+                 <img src={logout} className="panel-logos"/>
+                 <p className="panel-text panel-text-red">Log out</p>   
+                </div>
+                <div className="panel-item">
+                 <img src={trash} className="panel-logos"/>
+                 <p className="panel-text panel-text-red">Delete Profile</p>  
+                </div>
             </div>
 
             <div className="search-bar">
