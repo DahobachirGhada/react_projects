@@ -57,18 +57,18 @@ function DashBoard(){
                 <input type="text" placeholder="search"></input>
             </div>
 
-            <div className="toal-data">
-                <div>
-                    <p>Total Invoice</p>
+            <div className="total-boxes">
+                <div className="data-box">
+                    <p className="box-text">Total Invoice</p>
                 </div>
-                <div>
-                    <p>Total Patients</p>
+                <div className="data-box">
+                    <p className="box-text">Total Patients</p>
                 </div>
-                <div>
-                    <p>Appointment</p>
+                <div className="data-box">
+                    <p className="box-text">Appointment</p>
                 </div>
-                <div>
-                    <p>Rooms</p>
+                <div className="data-box">
+                    <p className="box-text">Rooms</p>
                 </div>
             </div>
         </div>

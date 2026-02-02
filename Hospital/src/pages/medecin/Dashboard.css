@@ -100,3 +100,15 @@ html, body {
  .panel-text-red{
   color: #9D2C2C;
  }
+
+ .total-boxes{
+  display: flex;
+  flex-direction: row;
+  gap:60px;
+ }
+
+ .data-box{
+  background-color: white;
+  width: clamp(170px, 15vw, 200px);
+  height: clamp(135px, 10vh, 145px);
+ }
